@@ -1,0 +1,36 @@
+.ant-layout-sider {
+  background-color: inherit;
+}
+.fixed-container {
+  position: initial;
+}
+.tree-container {
+  width: 230px!important;
+  max-width: 230px!important;
+  min-width: 230px!important;
+  font-size: 12px;
+  color: #000;
+  border: 1px #e8e8e8 solid;
+}
+.tree-container div.tree-title {
+  font-size: 14px;
+  padding: 14px 16px;
+  border-bottom: 1px #e8e8e8 solid;
+}
+.tree-container .tree-body {
+  padding: 10px 12px;
+  position: relative;
+  height: 550px;
+  overflow-y: scroll;
+}
+.tree-container .tree-body > li > span > .ant-tree-title {
+  color: #000;
+  font-size: 14px;
+}
+.tree-container .tree-body .ant-tree-title {
+  color: #000;
+  font-size: 12px;
+}
+.org-content .table-container {
+  margin-left: 10px;
+}

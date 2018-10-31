@@ -1,0 +1,194 @@
+.admin-index {
+  padding: 0 0 0 10px;
+  /*border-bottom: 1px solid @base-gray;*/
+  /*--------------------*/
+}
+.admin-index .columnsstyle {
+  font-size: 14px !important;
+  padding: 16px 10px !important;
+}
+.admin-index .screens {
+  position: relative;
+  top: -50px;
+}
+.admin-index .admin-title {
+  text-align: center;
+  position: relative;
+}
+.admin-index .admin-title span {
+  color: #333333;
+  font-size: 24px;
+}
+.admin-index .admin-title .back_btn {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: none;
+  width: 100px;
+  height: 42px;
+  text-align: center;
+  line-height: 42px;
+  border-radius: 21px;
+  border: solid 1px #0b84da;
+  font-size: 16px;
+  color: #0b84da;
+  cursor: pointer;
+}
+.admin-index .admin-text {
+  height: 35px;
+  line-height: 35px;
+}
+.admin-index .admin-text span {
+  color: #333333;
+  font-size: 18px;
+}
+.admin-index .admin-content {
+  height: 380px;
+  display: flex;
+  flex-direction: row;
+  overflow: hidden;
+}
+.admin-index .admin-content .content_left {
+  width: 350px !important;
+  padding-left: 30px;
+  background-color: #ffffff;
+}
+.admin-index .admin-content .content_left .content_left_item {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 27px 0;
+}
+.admin-index .admin-content .content_left .content_left_item img {
+  width: 22px;
+  height: 22px;
+  vertical-align: middle;
+  margin-left: 18px;
+}
+.admin-index .admin-content .content_left .content_left_item span {
+  color: #333333;
+  font-size: 18px;
+  margin-left: 12px;
+}
+.admin-index .admin-content .content_left .content_left_item div {
+  width: 1px;
+  height: 30px;
+  border-left: 1px dashed #cccccc;
+  overflow: hidden;
+  margin: 0 28px 0 40px;
+}
+.admin-index .admin-content .content_right {
+  flex: 1;
+}
+.admin-index .admin-content .content_right .content_right_item {
+  width: 275px;
+  height: 180px;
+  padding: 30px 0 30px 30px;
+  margin-left: 20px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #ffffff;
+}
+.admin-index .admin-content .content_right .content_right_item span {
+  font-size: 18px;
+  color: #333333;
+}
+.admin-index .admin-content .content_right .content_right_item .icon_text {
+  width: 96px;
+  height: 60px;
+  display: flex;
+  flex-direction: column ;
+  align-items: center;
+  justify-content: space-between;
+}
+.admin-index .admin-content .content_right .content_right_item .icon_text img {
+  width: 22px;
+  height: 22px;
+}
+.admin-index .admin-content .content_right .content_right_item .icon_text span {
+  font-size: 16px;
+}
+.admin-index .admin-content .content_right .content_right_item .slice {
+  width: 1px;
+  height: 100%;
+  border-left: 1px dashed #cccccc;
+  overflow: hidden;
+  margin: 0 30px;
+}
+.admin-index .block1 {
+  height: 150px;
+  flex-direction: row;
+  justify-content: space-around;
+}
+.admin-index .block1 > div {
+  color: #000;
+  height: inherit;
+  font-size: 18px;
+}
+.admin-index .block1 > div span {
+  font-size: 36px;
+}
+.admin-index .block1 .total-class {
+  background: url("../../assets/img/class_icon.png") no-repeat;
+  background-size: 150px auto;
+}
+.admin-index .block1 .total-teacher {
+  background: url("../../assets/img/teacher_icon.png") no-repeat;
+  background-size: 150px auto;
+}
+.admin-index .block1 .total-student {
+  background: url("../../assets/img/student_icon.png") no-repeat;
+  background-size: 150px auto;
+}
+.admin-index .block2 {
+  margin-top: 70px;
+}
+.admin-index .block2 > div {
+  margin-bottom: 40px;
+  flex-direction: row;
+  justify-content: space-between;
+}
+.admin-index .block2 > div > div {
+  height: 90px;
+  width: 248px;
+  max-width: 248px;
+  padding-left: 76px;
+  box-sizing: border-box;
+  justify-content: space-around;
+  border-radius: 12px;
+}
+.admin-index .block2 > div .total-time {
+  background: url("../../assets/img/time_icon.png") no-repeat 10px 12px;
+}
+.admin-index .block2 > div .total-time p:first-of-type {
+  font-size: 18px;
+  margin: 10px 0 0;
+}
+.admin-index .block2 > div .total-time p:first-of-type span {
+  color: #097c25;
+}
+.admin-index .block2 > div .total-time p:last-of-type {
+  font-size: 12px;
+  margin: 0 0 10px;
+  color: #959595;
+}
+.admin-index .block2 > div .total-play dd {
+  font-size: 14px;
+  margin: 20px 0 0;
+  color: #333333;
+}
+.admin-index .block2 > div .total-play p:first-of-type {
+  font-size: 12px;
+  margin: 0 0 15px;
+  color: #000;
+}
+.admin-index .block2 > div .total-play p:first-of-type span {
+  color: #ff6600;
+  font-family: Arial-BoldMT;
+  font-size: 24px;
+}
+.admin-index .table-error td {
+  border: "1px solid red";
+}

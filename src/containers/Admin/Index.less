@@ -1,0 +1,213 @@
+@import "../../variables";
+.admin-index {
+  padding: 0 0 0 10px;
+  /*border-bottom: 1px solid @base-gray;*/
+  .columnsstyle {
+    font-size: 14px !important;
+    padding: 16px 10px !important;
+   
+  }
+  .screens{
+    position: relative;
+    top: -50px;
+  }
+  .admin-title {
+    text-align: center;
+    position: relative;
+    span {
+      color: #333333;
+      font-size: 24px;
+    }
+    .back_btn{
+      position: absolute;
+      top: 0;
+      right: 0;
+      display: none;
+      width: 100px;
+      height: 42px;
+      text-align: center;
+      line-height: 42px;
+      border-radius: 21px;
+      border: solid 1px #0b84da;
+      font-size: 16px;
+      color: #0b84da;
+      cursor: pointer;
+    }
+  }
+  .admin-text {
+    height: 35px;
+    line-height: 35px;
+    span {
+      color: #333333;
+      font-size: 18px;
+    }
+  }
+  .admin-content {
+    height: 380px;
+    display: flex;
+    flex-direction: row;
+    overflow: hidden;
+    .content_left {
+      width: 350px !important;
+      padding-left: 30px;
+      background-color: #ffffff;
+      .content_left_item{
+        height: 40px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        margin: 27px 0;
+        img {
+          width: 22px;
+          height: 22px;
+          vertical-align: middle;
+          margin-left: 18px;
+        }
+        span {
+          color: #333333;
+          font-size: 18px;
+          margin-left: 12px;
+        }
+        div{
+          width: 1px;
+          height: 30px;
+          border-left:1px dashed #cccccc;
+          overflow:hidden;
+          margin: 0 28px 0 40px;
+        }
+      }
+    }
+    .content_right {
+      flex: 1;
+      .content_right_item{
+        width: 275px;
+	      height: 180px;
+        padding: 30px 0 30px 30px;
+        margin-left: 20px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        background-color: #ffffff;
+        span {
+          font-size: 18px;
+          color: #333333;
+        }
+        .icon_text {
+          width: 96px;
+          height: 60px;
+          display: flex;
+          flex-direction: column ;
+          align-items: center;
+          justify-content: space-between;
+          img {
+            width: 22px;
+            height: 22px;
+          }
+          span {
+            font-size: 16px;
+          }
+        }
+        .slice {
+          width: 1px;
+          height: 100%;
+          border-left:1px dashed #cccccc;
+          overflow:hidden;
+          margin: 0 30px;
+        }
+        
+      }
+    }
+    
+  }
+
+
+
+
+
+
+
+  /*--------------------*/ 
+  .block1 {
+    height: 150px;
+    flex-direction: row;
+    justify-content: space-around;
+    > div {
+      color: #000;
+      height: inherit;
+      font-size: 18px;
+      span {
+        font-size: 36px;
+      }
+    }
+    .total-class {
+      background: url("../../assets/img/class_icon.png") no-repeat;
+      background-size: 150px auto;
+    }
+    .total-teacher {
+      background: url("../../assets/img/teacher_icon.png") no-repeat;
+      background-size: 150px auto;
+    }
+    .total-student {
+      background: url("../../assets/img/student_icon.png") no-repeat;
+      background-size: 150px auto;
+    }
+  }
+  .block2 {
+    // padding: 0 56px;
+    margin-top: 70px;
+    > div {
+      margin-bottom: 40px;
+      flex-direction: row;
+      justify-content: space-between;
+      > div {
+        height: 90px;
+        width: 248px;
+        max-width: 248px;
+        padding-left: 76px;
+        box-sizing: border-box;
+        justify-content: space-around;
+        border-radius: 12px;
+      }
+      .total-time {
+        background: url("../../assets/img/time_icon.png") no-repeat 10px 12px;
+        p {
+          &:first-of-type {
+            font-size: 18px;
+            margin: 10px 0 0;
+            span {
+              color: @base-green;
+            }
+          }
+          &:last-of-type {
+            font-size: 12px;
+            margin: 0 0 10px;
+            color: @tip-font-gray;
+          }
+        }
+      }
+      .total-play {
+        dd {
+          font-size: 14px;
+          margin: 20px 0 0;
+          color: #333333;
+        }
+        p {
+          &:first-of-type {
+            font-size: 12px;
+            margin: 0 0 15px;
+            color: #000;
+            span {
+              color: @base-orange;
+              font-family: Arial-BoldMT;
+              font-size: 24px;
+            }
+          }
+        }
+        
+      }
+    }
+  }
+  .table-error td{
+    border:"1px solid red"
+  }
+}
